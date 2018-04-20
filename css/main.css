@@ -48,7 +48,8 @@ main{
     width: 50%;
     height: 50%;
     background: #f0f0f0;
-    font-size: 2.8vw;
+    font-family: Goose;
+    font-size: 2vw;
     position: relative;
     background-size: cover;
     background-repeat: no-repeat;
