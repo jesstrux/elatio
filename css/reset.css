@@ -31,8 +31,12 @@ h5:not(.unbold),
 h6:not(.unbold) {
 	font-family:SemiBold, sans-serif;
 }
-@font-face{font-family:"Light";src:url("../fonts/Light.ttf");}
+@font-face{font-family:"Goose Semilight";src:url("../fonts/goose2.ttf");}
+@font-face{font-family:"Goose Light";src:url("../fonts/goose3.ttf");}
+@font-face{font-family:"Goose";src:url("../fonts/goose.ttf");}
+
+@font-face{font-family:"Light";src:url("../fonts/Light.otf");}
 @font-face{font-family:"Regular";src:url("../fonts/Regular.ttf");}
-@font-face{font-family:"SemiBold";src:url("../fonts/SemiBold.ttf");}
-@font-face{font-family:"Bold";src:url("../fonts/Bold.ttf");}
+@font-face{font-family:"SemiBold";src:url("../fonts/SemiBold.otf");}
+@font-face{font-family:"Bold";src:url("../fonts/Bold.otf");}
 @font-face{font-family:"Black";src:url("../fonts/Black.ttf");}

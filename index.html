@@ -2,359 +2,111 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>IFM</title>
+	<title>elatio</title>
 	<meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="theme-color" content="#003a75">
-    <meta name="apple-mobile-web-app-status-bar-style" content="#003a75">
-    <meta name="theme-color" content="#003a75">
-    <meta name="apple-mobile-web-app-status-bar-style" content="#003a75">
+    <meta name="theme-color" content="#CC3333">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#CC3333">
+    <meta name="theme-color" content="#CC3333">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#CC3333">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="">
     <meta name="description" content="">
-    <meta name="author" content="IFM Staff">
-
+    <meta name="author" content="Walter Kimaro">
 
 	<link rel="stylesheet" href="css/reset.css">
-	<link rel="stylesheet" href="css/flexboxgrid.min.css">
 	<link rel="stylesheet" href="css/flex.css">
 	<link rel="stylesheet" href="css/main.css">
-	<link rel="stylesheet" href="css/home.css">
+
 	<link rel="icon" href="logo.png">
 </head>
-<body class="show-na">
-	<header class="for-lg">
-		<div class="layout center justified section-wrapper">
-			<a id="logo" href="/" class="layout vertica center">
-				<!-- <span id="logoImage"> -->
-					<img src="img/logo.png" alt="" width="70px;" height="70px">
-				<!-- </span> -->
-				<span id="logoText" href="/" class="layout center">
-					Institute of Finance Management
-				</span>
-			</a>
-
-			<nav class="layout center">
-				<a href="#" class="layout center-center active">HOME</a>
-				<!-- <a href="#" class="layout center-center">ABOUT US</a> -->
-				<a href="#" class="layout center-center">ACADEMICS</a>
-				<a href="#" class="layout center-center">STAFF</a>
-				<a href="#" class="layout center-center">NEWS</a>
-				<a href="#" class="layout center-center">EVENTS</a>
-				<a href="#" class="layout center-center">CONTACT US</a>
-			</nav>
-		</div>
-	</header>
-
-	<div id="mobNav" class="for-mob">
-	    <div id="mobNavBar" class="layout center justified section-wrapper">
-	        <a id="logo" class="layout center" href="#">
-	            <img src="img/logo.png">
-	        </a>
-
-	        <button id="menuToggler" class="hamburger hamburger--slider" type="button" onclick="toggleMobNav()">
-	          <span class="hamburger-box">
-	            <span class="hamburger-inner"></span>
-	          </span>
-	        </button>
-	    </div>
-
-	    <nav id="mainNavLinks" class="mainNavLinks layout vertical center text-center">
-	        <a href="#" onclick="toggleMobNav()" class="layout center-center active">HOME</a>
-			<a href="#" onclick="toggleMobNav()" class="layout center-center">ACADEMICS</a>
-			<a href="#" onclick="toggleMobNav()" class="layout center-center">STAFF</a>
-			<a href="#" onclick="toggleMobNav()" class="layout center-center">NEWS</a>
-			<a href="#" onclick="toggleMobNav()" class="layout center-center">EVENTS</a>
-			<a href="#" onclick="toggleMobNav()" class="layout center-center">CONTACT US</a>
-	    </nav>
-	</div>
-
-	<main>
-		<div id="banner">
-			<div class="text layout vertical center-center">
-				<h2>
-					<!-- <span>PROVIDING HELP &AMP; GUIDANCE TO</span>
-					THE NEXT BIG WAVE OF<br>FINANCIALLY AWARE YOUTH -->
-					<span>EVEN RIGHT NOW, WE ARE</span>
-					Inspiring a financially <br> aware generation.
-				</h2>
-
-				<a href="#sectionEvAn" id="bannerScroller" class="layout center-center">
-					<svg fill="#FFFFFF" height="40" width="40" viewBox="0 0 24 24">
-					    <path d="M7.41 7.84L12 12.42l4.59-4.58L18 9.25l-6 6-6-6z"/>
-					    <path d="M0-.75h24v24H0z" fill="none"/>
-					</svg>
+<body>
+	<main class="layout">
+		<div id="aboutSection" class="flex layout vertical">
+			<header class="layout center justified">
+				<a id="logo" href="/" class="layout center">
+					<img src="images/logo.png" alt="">
+					elatio
 				</a>
+
+				<button>hire us</button>
+			</header>
+			<div id="aboutContent" class="flex layout wrap">
+				<div id="aboutText" class="layout vertical center-justified">
+					<h1>
+						<sup>who we are</sup>
+						A new age<br>
+						<em style"text-align: left; display: block;">graphic design <br> company...</em> 
+						<span style="text-align: right;">
+							<sup class="meta">where we are</sup>
+							...working out of<br> Dar Es Salaam Tanzania.
+						</span>
+					</h1>
+					<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam deserunt voluptatum veniam beatae commodi alias aspernatur.</p>
+					<button>HIRE US NOW</button>
+				</div>
+
+				<div class="segment"></div>
+
+				<div class="segment">
+					<div class="scrim layout vertical center-center">
+						LOGO DESIGN
+					</div>
+				</div>
+				
+				<div class="segment">
+					<div class="scrim layout vertical center-center">
+						POSTER DESIGN
+					</div>
+				</div>
 			</div>
 		</div>
-
-		<section id="sectionEvAn">
-			<div class="section-wrapper">
-				<div class="row">
-					<div id="upcomingEvents" class="col-md-8">
-						<h1 class="section-title">UPCOMING EVENTS</h1>
-						
-						<div class="row" style="margin: 0;">
-							<a href="#" class="col-md-6 an-event layout start">
-								<div class="event-date layout vertical center-center">
-									<span class="day">09</span>
-									<span class="month">APR</span>
-								</div>
-								<div class="event-info flex layout vertical">
-									<h3>Block III Classes for IFM Master’s Begin</h3>
-								</div>
-							</a>
-
-							<a href="#" class="col-md-6 an-event layout start">
-								<div class="event-date layout vertical center-center">
-									<span class="day">16</span>
-									<span class="month">APR</span>
-								</div>
-								<div class="event-info flex layout vertical">
-									<h3>Test 1 for undergraduate and post graduate students.</h3>
-									<p>IFM Main Campus</p>
-								</div>
-							</a>
-
-							<a href="#" class="col-md-6 an-event layout start">
-								<div class="event-date layout vertical center-center">
-									<span class="day">26</span>
-									<span class="month">APR</span>
-								</div>
-								<div class="event-info flex layout vertical">
-									<h3>IFM Career Day 2018</h3>
-									<p>From 9AM - IFM Grounds</p>
-								</div>
-							</a>
-
-							<a href="#" class="col-md-6 an-event layout start">
-								<div class="event-date layout vertical center-center">
-									<span class="day">26</span>
-									<span class="month">APR</span>
-								</div>
-								<div class="event-info flex layout vertical">
-									<h3>IFM Career Day 2018</h3>
-									<p>From 9AM - IFM Grounds</p>
-								</div>
-							</a>
-						</div>
+		<div id="workSection">
+			<h2>Featured Work</h2>
+			
+			<div id="sampleWork">
+				<div class="work-item">
+					<div class="image">
+						<img src="images/work/kakala.jpg" alt="">
 					</div>
+					<h3>Event Poster for Club Kakala.</h3>
+				</div>
 
-					<div id="announcements" class="col-md-4">
-						<h1 class="section-title">LINKS &amp; ANNOUNCEMENTS</h1>
-
-						<a href="#" class="an-announcement layout center">
-							Download IFM annual Newsletter for 2017.
-						</a>
-
-						<a href="#" class="an-announcement layout center">
-							Electronic payment guidelines.
-						</a>
-
-						<a href="#" class="an-announcement layout center">
-							Click to download 2018/2019 admission forms.
-						</a>
-
-						<a href="#" class="an-announcement layout center">
-							Announcing new course: Certificate of proficiency insurance.
-						</a>
+				<div class="work-item">
+					<div class="image">
+						<img src="images/work/face.jpg" alt="">
 					</div>
+					<h3>Wall Deco Poster.</h3>
+				</div>
+
+				<div class="work-item">
+					<div class="image">
+						<img src="images/work/ultramax.jpg" alt="">
+					</div>
+					<h3>Ultramax logo.</h3>
+				</div>
+
+				<div class="work-item">
+					<div class="image">
+						<img src="images/work/nancysumary.jpg" alt="">
+					</div>
+					<h3>Nancy Sumari.</h3>
+				</div>
+
+				<div class="work-item">
+					<div class="image">
+						<img src="images/work/tshirt.jpg" alt="">
+					</div>
+					<h3>Tshirt print design.</h3>
+				</div>
+
+				<div class="work-item">
+					<div class="image">
+						<img src="images/work/fcc_gardens.jpg" alt="">
+					</div>
+					<h3>FCC Gardens.</h3>
 				</div>
 			</div>
-		</section>
-
-		<section id="sectionNews">
-			<div class="section-wrapper">
-				<h1 class="section-title centered">LATEST NEWS</h1>
-				<div class="row">
-					<div class="col-md-6 layout news-item">
-						<div class="image">
-							<img src="img/soccer.jpg" alt="">
-						</div>
-						<div class="text layout vertical justified">
-							<div>
-								<h3 class="unbold">IFM staff wins the first ever inclusion soccer bonanza.
-								</h3 class="unbold">
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil officia, doloremque nisi.
-								</p>
-							</div>
-							<a href="#">Read More >></a>
-						</div>
-					</div>
-
-					<div class="col-md-6 layout news-item">
-						<div class="image">
-							<img src="img/girls.jpg" alt="">
-						</div>
-						<div class="text layout vertical justified">
-							<div>
-								<h3 class="unbold">
-									Respect paid to the highest performing girls.
-								</h3 class="unbold">
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil officia, doloremque nisi.
-								</p>
-							</div>
-							<a href="#">Read More >></a>
-						</div>
-					</div>
-
-					<div class="col-md-6 layout news-item">
-						<div class="image">
-							<img src="img/seminar.jpg" alt="">
-						</div>
-						<div class="text layout vertical justified">
-							<div>
-								<h3 class="unbold">
-									Awareness seminar concluded with huge success.
-								</h3 class="unbold">
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil officia, doloremque nisi.
-								</p>
-							</div>
-							<a href="#">Read More >></a>
-						</div>
-					</div>
-
-					<div class="col-md-6 layout news-item">
-						<div class="image">
-							<img src="img/stakeholders.jpg" alt="">
-						</div>
-						<div class="text layout vertical justified">
-							<div>
-								<h3 class="unbold">
-									Stakeholders very pleased with the industry appeal of IFM graduates.
-								</h3 class="unbold">
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil officia, doloremque nisi.
-								</p>
-							</div>
-							<a href="#">Read More >></a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-
-		<section id="ctaJoin" class="cta">
-		    <div class="text layout vertical center-center">
-				<span>OUR MOTTO</span>
-		        <h5>Jifunze Uhudumie</h5>
-		        <!-- <p>
-		            IFM was built upon the pillar of students gaining knowledge to serve their communities, join us and become an informed citizen.
-		        </p> -->
-		        <a href="#" class="btn">
-		            Become a student
-		        </a>
-		    </div>
-		</section>
-
-		<section id="sectionCampus">
-			<div class="section-wrapper">
-				<h1 class="section-title centered">Academic Campuses</h1>
-				<div class="row">
-					<div class="col-md-6 campus-item">
-						<div class="image">
-							<img src="img/main.jpg" alt="">
-						</div>
-						<h3 class="unbold">
-							Main Campus
-						</h3>
-						<p>
-							IFM Main campus was set up in 1972. It stands as the oldest higher learning financial institution in Tanzania, located in Dar es Salaam City Centre, Shaaban Robert Street, opposite the National Museum.
-						</p>
-						<a href="#">learn more&nbsp; >></a>
-					</div>
-
-					<div class="col-md-6 campus-item">
-						<div class="image">
-							<img src="img/mwanza.jpg" alt="">
-						</div>
-						<h3 class="unbold">
-							Mwanza Campus
-						</h3>
-						<p>
-							IFM Mwanza Teaching Centre (IFM-MCT) was established in 2013. The Campus is located in Mwanza City, Isamilo area, Machemba Road. It is housed in the compound of UWT, opposite Sekou Toure Hospital-a walking distance from City Centre.
-						</p>
-						<a href="#">learn more&nbsp; >></a>
-					</div>
-				</div>
-			</div>
-		</section>
+		</div>
 	</main>
-
-	<footer>
-		<div class="section-wrapper layout justified">
-			<div class="footer-section">
-				<h5>CONTACTS</h5>
-				<p><span>PHONE:</span> +255 98210842</p>
-				<p><span>EMAIL:</span> info@ifm.ac.tz</p>
-				<p><span>FAX:</span> +255 98210842</p>
-			</div>
-
-			<div class="footer-section for-lg">
-				<h5>SITE LINKS</h5>
-				<a href="#">Home</a>
-				<a href="#">Academics</a>
-				<a href="#">News</a>
-				<a href="#">Events</a>
-			</div>
-
-			<div class="footer-section for-lg">
-				<h5>QUICK LINKS</h5>
-				<a href="#">About Us</a>
-				<a href="#">FAQs</a>
-				<a href="#">Student Code of conduct</a>
-				<a href="#">Almanac</a>
-			</div>
-		</div>
-
-		<div class="section-wrapper" style="max-width: 1300px !important">
-			<div id="copyright" class="section-wrapper layout justified">
-				<span>Copyright &copy; 2018 Institute of Finance Management</span>
-
-				<div class="layout center justified for-lg">
-					<a href="#">Privacy</a>
-					<a href="#">Site Map</a>
-					<a href="#">Terms &amp; Conditions</a>
-				</div>
-			</div>		
-		</div>
-	</footer>
-
-	<script src="js/jquery.min.js"></script>
-	<script>
-		$('a[href*="#"]')
-        // Remove links that don't actually link to anything
-            .not('[href="#"]')
-            .not('[href="#0"]')
-            .click(function(event) {
-                // On-page links
-                if (
-                    location.pathname.replace(/^\//, '') === this.pathname.replace(/^\//, '')
-                    &&
-                    location.hostname === this.hostname
-                ) {
-                    // Figure out element to scroll to
-                    var target = $(this.hash);
-                    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-                    // Does a scroll target exist?
-                    if (target.length) {
-                        // Only prevent default if animation is actually gonna happen
-                        event.preventDefault();
-                        $('html, body').animate({
-                            scrollTop: target.offset().top
-                        }, 1000, function() {
-                            // Callback after animation
-                            // Must change focus!
-                            var $target = $(target);
-                            $target.focus();
-                            if ($target.is(":focus")) { // Checking if the target was focused
-                                return false;
-                            } else {
-                                $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
-                                $target.focus(); // Set focus again
-                            };
-                        });
-                    }
-                }
-            });
-	</script>
 </body>
 </html>
