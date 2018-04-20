@@ -65,12 +65,12 @@ main{
 .segment:nth-child(3) {
     background-image: url(../images/work/apo.jpg);
     color: #ffa637;
-    color: #753434;
+    /* color: #753434; */
 }
 
 .segment:nth-child(3) .scrim {
-    /* background: rgba(76, 136, 51, 0.74); */
-    background: rgba(232, 152, 149, 0.8588235294117647);
+    background: rgba(76, 136, 51, 0.74);
+    /* background: rgba(232, 152, 149, 0.8588235294117647); */
 }
 
 .segment:nth-child(4){
@@ -139,8 +139,8 @@ main{
     background: #f76060;
     color: #ffdadb;
     overflow: auto;
-    background: #f1f1f1;
-    color: #352f2f;
+    /* background: #f1f1f1; */
+    /* color: #352f2f; */
 }
 
 #workSection h2{
